@@ -1,0 +1,29 @@
+.academic {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.academic h2 {
+    margin-left: 100px;
+}
+
+.academic__history {
+    margin-right: 30px;
+    padding-left: 40px;
+    border-left: 1px solid orange;
+}
+
+.academic__history--title {
+    font-weight: bold;
+}
+
+.academic__history article {
+    padding: 30px 0px 30px 0px;
+}
+
+.academic__history article p {
+    font-size: 14px;
+}

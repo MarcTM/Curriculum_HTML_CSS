@@ -1,0 +1,25 @@
+.personal {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal h1,
+.personal__information {
+    width: 100%;
+}
+
+.personal li {
+    padding-bottom: 10px;
+}
+
+.personal__information {
+    padding-left: 300px;
+}
+
+.personal__information ul {
+    column-count: 2;
+    column-gap: 20px;
+}

@@ -1,0 +1,41 @@
+header {
+    display: block;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+/* Social icons, header */
+.social-icons {
+    display: block;
+    text-align: left;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social {
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.social__facebook img {
+    width: 30px;
+    height: 30px;
+}
+
+.social__github img {
+    width: 30px;
+    height: 30px;
+}
+
+.social__twitter img {
+    width: 25px;
+    height: 25px;
+}

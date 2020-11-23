@@ -1,0 +1,15 @@
+
+/* Main */
+@import './main/main.css';
+
+/* Introduction */
+@import './main/introduction.css';
+
+/* Personal information */
+@import './main/personal.css';
+
+/* Adacemic information */
+@import './main/academic.css';
+
+/* Competence skills */
+@import './main/competence.css';
