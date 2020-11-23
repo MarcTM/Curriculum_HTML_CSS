@@ -1,79 +1,240 @@
-/* Header */
-header{
-	display: block;
-	padding: 10px;
-
-	color: white;
-	text-align: center;
-	background-color: rgb(1, 179, 1);
+body {
+    position: absolute;
+    top: 40;
+    right: 0;
+    left: 0;
 }
+
+
+/* Header */
+
+header {
+    display: block;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.social-icons {
+    display: block;
+    text-align: left;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social {
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.social__facebook img {
+    width: 30px;
+    height: 30px;
+}
+
+.social__github img {
+    width: 30px;
+    height: 30px;
+}
+
+.social__twitter img {
+    width: 25px;
+    height: 25px;
+}
+
 
 /* Nav */
-nav{
-	display: flex;
-	justify-content: space-around;
 
-	margin-top: 5px;
-	height: 70px;
-	color: white;
-	background-color: rgb(1, 179, 1);
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    color: white;
+    background-color: black;
 }
 
-nav a{
-	margin: auto;
-
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
+nav a {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-nav a:hover{
-	color: black;
-	text-decoration: underline;
-	transform: scale(1.2);
+nav a:hover {
+    border-bottom: 2px solid rgb(151, 109, 29);
+    padding-bottom: 4px;
 }
+
+
+/* Arrow down */
+
+span.arrow-down {
+    position: relative;
+    top: -5px;
+    left: 5px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin-left: 2px;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 
 /* Main */
-main{
-	background-color: white;
-	/* background-color: rgb(218, 213, 213); */
-	padding-top: 60px;
-	padding-bottom: 60px;
+
+main {
+    background-color: white;
+    /* background-color: rgb(218, 213, 213); */
+    padding-bottom: 60px;
 }
 
-section{
-	margin: auto;
-	margin-bottom: 60px;
-	padding: 20px;
 
-	width: 75%;
-	background-color: rgb(255, 255, 255);
-	border: 2px solid black;
-	box-shadow: 5px 10px #888888;
+/* Introduction */
+
+.introduction {
+    position: relative;
+    text-align: center;
 }
 
-.personal ul {
+.introduction img {
+    width: 100%;
+    height: 600px;
+    filter: blur(3px);
+}
+
+.introduction__article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: white;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.introduction__article p {
+    font-weight: bold;
+}
+
+
+/* Personal information */
+
+.personal {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal h1,
+.personal__information {
+    width: 100%;
+}
+
+.personal__information {
+    padding-left: 300px;
+}
+
+.personal li {
+    padding-bottom: 10px;
+}
+
+.personal__information ul {
     column-count: 2;
     column-gap: 20px;
 }
 
-.personal li{
-	padding-bottom: 10px;
+
+/* Adacemic information */
+
+.academic {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.academic h2 {
+    margin-left: 100px;
+}
+
+.academic__history {
+    margin-right: 30px;
+    padding-left: 40px;
+    border-left: 1px solid orange;
+}
+
+.academic__history--title {
+    font-weight: bold;
+}
+
+.academic__history article {
+    padding: 30px 0px 30px 0px;
+}
+
+.academic__history article p {
+    font-size: 14px;
+}
+
+
+/* Competence skills */
+
+.competence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.competence h2 {
+    width: 80%;
+    border-bottom: 1px solid orange;
+    padding-bottom: 50px;
+}
+
+.competence ul {
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.competence ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.competence ul li img {
+    margin-bottom: 10px;
+    width: 20%;
 }
 
 
 /* Footer */
-footer{
-	display: block;
-	margin-top: 5px;
-	padding: 10px;
 
-	color: white;
-	text-align: left;
-	background-color: rgb(1, 179, 1);
-}
-
-footer a{
-	color: black;
-	text-decoration: none;
+footer {
+    display: block;
+    margin-top: 5px;
+    padding: 10px 10px 15px 25px;
+    color: white;
+    text-align: left;
+    background-color: black;
 }

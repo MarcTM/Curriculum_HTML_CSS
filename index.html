@@ -1,58 +1,152 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Curriculum-Marc</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Curriculum-Marc</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	
-	<header>
-		<h1 id="">CURRÍCULUM VITAE</h1>
-	</header>
 
-	<nav>
-		<a href="#introduction">INTRODUCTION</a>
-		<a href="#personal">PERSONAL INFORMATION</a>
-		<a href="#academic">ACADEMIC HISTORY</a>
-		<a href="#competence">COMPETENCE SKILLS</a>
-		<a href="#hobbies">HOBBIES</a>
-	</nav>
+    <header>
+        <section class="social-icons">
+            <a href="" class="social social__facebook">
+                <img src="photos/facebook.png">
+            </a>
+            <a href="" class="social social__github">
+                <img src="photos/github.png">
+            </a>
+            <a href="" class="social social__twitter">
+                <img src="photos/twitter.png">
+            </a>
+        </section>
+        <h1 id="">CURRÍCULUM VITAE</h1>
+    </header>
 
-	<main>
-		<section class="introduction">
-			<h2 id="introduction">INTRODUCTION</h2>
-			<p>
-				I am a Higher Education Student willing to complete my formation in a workplace environment that allows me to
-				put into practise the knowledge I have learned so far. With my teamwork skills, an interest in learning new 
-				technologies and my motivation, I consider myself suitable for any challenging job.
-			</p>
-		</section>
+    <nav>
+        <a href="#introduction">
+			INTRODUCTION
+			<span class="arrow-down"></span>
+		</a>
+        <a href="#personal">
+			PERSONAL INFORMATION
+			<span class="arrow-down"></span>
+		</a>
+        <a href="#academic">
+			ACADEMIC HISTORY
+			<span class="arrow-down"></span>
+		</a>
+        <a href="#competence">
+			COMPETENCE SKILLS
+			<span class="arrow-down"></span>
+		</a>
+    </nav>
 
-		<section class="personal">
-			<h2 id="personal">PERSONAL INFORMATION</h2>
-			<ul>
-				<li>Gender: male</li>
-				<li>Date of birth: 01/04/2001</li>
-				<li>Nationality and native language: Spanish</li>
-				<li>City or residence: Ontinyent, Valencia</li>
-				<li>Car Driving License</li>
-				<li>English, B1 certificate</li>
-			</ul>
-		</section>
+    <main>
+        <section class="introduction">
+            <img class="introduction__image" src="photos/intro.jpg">
+            <article class="introduction__article">
+                <h2 id="introduction">INTRODUCTION</h2>
+                <p>
+                    I am a Higher Education Student willing to complete my formation in a workplace environment that allows me to put into practise the knowledge I have learned so far. With my teamwork skills, an interest in learning new technologies and my motivation, I
+                    consider myself suitable for any challenging job.
+                </p>
+            </article>
+        </section>
 
-		<section class="academic">
-			<h2 id="academic">ACADEMIC INFORMATION</h2>
+        <section class="personal">
+            <h2 id="personal">PERSONAL INFORMATION</h2>
+            <article class="personal__information">
+                <ul>
+                    <li>Gender: male</li>
+                    <li>Date of birth: 01/04/2001</li>
+                    <li>Nationality and native language: Spanish</li>
+                    <li>City or residence: Ontinyent, Valencia</li>
+                    <li>Car Driving License</li>
+                    <li>English, B1 certificate</li>
+                </ul>
+            </article>
+        </section>
 
-		</section>
-	</main>
+        <hr>
 
-	<footer>
-		<h2 style="color: black">Social media:</h2>
-		<a href="#">Instagram</a> | 
-		<a href="#">Twitter</a> | 
-		<a href="#">Facebook</a>
-	</footer>
+        <section class="academic">
+            <h2 id="academic">ACADEMIC HISTORY</h2>
+            <br>
+            <article class="academic__history">
+                <article>
+                    <h3>IES L'ESTACIÓ, ONTINYENT</h3>
+                    <p class="academic__history--title">Vocational Education and Training in Microcomputer Systems and Networks, 2017-2019</p>
+                    <p>-Certificate: Technician in Microcomputer Systems and Networks.</p>
+                </article>
+                <article>
+                    <h3>IES L'ESTACIÓ, ONTINYENT</h3>
+                    <p class="academic__history--title">Certificate of Higher Education in Web Applications Development, 2019-Present</p>
+                    <p>-Certificate: Web applications Developer.</p>
+                </article>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="competence">
+            <h2 id="competence">COMPETENCE SKILLS</h2>
+            <ul>
+                <li>
+                    <img src="photos/skills/javascript.png"> JavaScript
+                </li>
+                <li>
+                    <img src="photos/skills/jquery.png"> JQuery
+                </li>
+                <li>
+                    <img src="photos/skills/angularjs.png"> AngularJS
+                </li>
+                <li>
+                    <img src="photos/skills/nodejs.png"> Node.js
+                </li>
+                <li>
+                    <img src="photos/skills/expressjs.png"> Express.js
+                </li>
+                <li>
+                    <img src="photos/skills/php.png"> PHP OO
+                </li>
+                <li>
+                    <img src="photos/skills/html.png"> HTML
+                </li>
+                <li>
+                    <img src="photos/skills/css.png"> CSS
+                </li>
+                <li>
+                    <img src="photos/skills/mongodb.png"> MongoDB
+                </li>
+                <li>
+                    <img src="photos/skills/mysql.svg"> MySQL
+                </li>
+                <li>
+                    <img src="photos/skills/bash.png"> Bash
+                </li>
+                <li>
+                    <img src="photos/skills/mongoose.png"> Mongoose
+                </li>
+                <li>
+                    <img src="photos/skills/graphql.png"> GraphQL
+                </li>
+                <li>
+                    <img src="photos/skills/docker.png"> Docker
+                </li>
+                <li>
+                    <img src="photos/skills/github.png"> Git/GitHub
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2 style="color: white">Contact me at:</h2>
+        <h3>marctorresmartinez@gmail.com</h3>
+    </footer>
 
 </body>
+
 </html>
