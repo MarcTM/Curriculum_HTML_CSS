@@ -1,8 +1,6 @@
+/* Body, font family */
+
 body {
-    position: absolute;
-    top: 40;
-    right: 0;
-    left: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -20,6 +18,9 @@ header {
 header h1 {
     font-size: 30px;
 }
+
+
+/* Social icons, header */
 
 .social-icons {
     display: block;
@@ -75,7 +76,7 @@ nav a:hover {
 }
 
 
-/* Arrow down */
+/* Arrow down, nav */
 
 span.arrow-down {
     position: relative;
@@ -144,12 +145,12 @@ main {
     width: 100%;
 }
 
-.personal__information {
-    padding-left: 300px;
-}
-
 .personal li {
     padding-bottom: 10px;
+}
+
+.personal__information {
+    padding-left: 300px;
 }
 
 .personal__information ul {
