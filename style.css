@@ -3,6 +3,7 @@ body {
     top: 40;
     right: 0;
     left: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -225,6 +226,11 @@ main {
 .competence ul li img {
     margin-bottom: 10px;
     width: 20%;
+}
+
+.competence ul li img:hover {
+    transition: 0.2s;
+    width: 22%;
 }
 
 
