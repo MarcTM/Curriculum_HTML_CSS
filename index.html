@@ -28,15 +28,15 @@
 <body>
 
     <!-- Header (with social icons) -->
-    <header>
+    <header itemscope itemtype="https://schema.org/Person">
         <section class="social-icons">
-            <a href="" class="social social__facebook">
+            <a itemprop="facebook" href="" class="social social__facebook">
                 <img alt="facebook_logo" src="photos/facebook.png">
             </a>
-            <a href="" class="social social__github">
+            <a itemprop="github" href="https://github.com/MarcTM/" target="_blank" class="social social__github">
                 <img alt="github_logo" src="photos/github.png">
             </a>
-            <a href="" class="social social__twitter">
+            <a itemprop="twitter" href="" class="social social__twitter">
                 <img alt="twitter_logo" src="photos/twitter.png">
             </a>
         </section>
@@ -45,7 +45,7 @@
     </header>
 
     <!-- Navigation bar -->
-    <nav>
+    <nav itemprop="navigation">
         <a href="#introduction">
 			INTRODUCTION
 			<span class="arrow-down"></span>
@@ -65,9 +65,9 @@
     </nav>
 
     <!-- Main page -->
-    <main>
+    <main itemprop="mainInformation">
         <!-- Introduction -->
-        <section class="introduction">
+        <section itemprop="introduction" class="introduction">
             <img alt="landscape" class="introduction__image" src="photos/intro.jpg">
             <article class="introduction__article">
                 <h2 id="introduction">INTRODUCTION</h2>
@@ -79,7 +79,7 @@
         </section>
 
         <!-- Personal information -->
-        <section class="personal">
+        <section itemprop="personal" class="personal">
             <h2 id="personal">PERSONAL INFORMATION</h2>
             <article class="personal__information">
                 <ul>
@@ -96,7 +96,7 @@
         <hr>
 
         <!-- Academic information -->
-        <section class="academic">
+        <section itemprop="academic" class="academic">
             <h2 id="academic">ACADEMIC HISTORY</h2>
             <br>
             <article class="academic__history">
@@ -116,75 +116,78 @@
         <hr>
 
         <!-- Competence information -->
-        <section class="competence">
+        <section itemprop="competence" class="competence">
             <h2 id="competence">COMPETENCE SKILLS</h2>
             <ul>
                 <li>
-                    <img alt="javascript_logo" src="photos/skills/javascript.png"> JavaScript
+                    <img itemprop="javascript" alt="javascript_logo" src="photos/skills/javascript.png"> JavaScript
                 </li>
                 <li>
-                    <img alt="jquery_logo" src="photos/skills/jquery.png"> JQuery
+                    <img itemprop="jquery" alt="jquery_logo" src="photos/skills/jquery.png"> JQuery
                 </li>
                 <li>
-                    <img alt="angularjs_logo" src="photos/skills/angularjs.png"> AngularJS
+                    <img itemprop="angularjs" alt="angularjs_logo" src="photos/skills/angularjs.png"> AngularJS
                 </li>
                 <li>
-                    <img alt="nodejs_logo" src="photos/skills/nodejs.png"> Node.js
+                    <img itemprop="nodejs" alt="nodejs_logo" src="photos/skills/nodejs.png"> Node.js
                 </li>
                 <li>
-                    <img alt="expressjs_logo" src="photos/skills/expressjs.png"> Express.js
+                    <img itemprop="expressjs" alt="expressjs_logo" src="photos/skills/expressjs.png"> Express.js
                 </li>
                 <li>
-                    <img alt="php_logo" src="photos/skills/php.png"> PHP OO
+                    <img itemprop="php" alt="php_logo" src="photos/skills/php.png"> PHP OO
                 </li>
                 <li>
-                    <img alt="html_logo" src="photos/skills/html.png"> HTML
+                    <img itemprop="html" alt="html_logo" src="photos/skills/html.png"> HTML
                 </li>
                 <li>
-                    <img alt="css_logo" src="photos/skills/css.png"> CSS
+                    <img itemprop="css" alt="css_logo" src="photos/skills/css.png"> CSS
                 </li>
                 <li>
-                    <img alt="mongodb_logo" src="photos/skills/mongodb.png"> MongoDB
+                    <img itemprop="mongodb" alt="mongodb_logo" src="photos/skills/mongodb.png"> MongoDB
                 </li>
                 <li>
-                    <img alt="mysql_logo" src="photos/skills/mysql.svg"> MySQL
+                    <img itemprop="mysql" alt="mysql_logo" src="photos/skills/mysql.svg"> MySQL
                 </li>
                 <li>
-                    <img alt="bash_logo" src="photos/skills/bash.png"> Bash
+                    <img itemprop="bash" alt="bash_logo" src="photos/skills/bash.png"> Bash
                 </li>
                 <li>
-                    <img alt="mongoose_logo" src="photos/skills/mongoose.png"> Mongoose
+                    <img itemprop="mongoose" alt="mongoose_logo" src="photos/skills/mongoose.png"> Mongoose
                 </li>
                 <li>
-                    <img alt="graphql_logo" src="photos/skills/graphql.png"> GraphQL
+                    <img itemprop="graphql" alt="graphql_logo" src="photos/skills/graphql.png"> GraphQL
                 </li>
                 <li>
-                    <img alt="docker_logo" src="photos/skills/docker.png"> Docker
+                    <img itemprop="docker" alt="docker_logo" src="photos/skills/docker.png"> Docker
                 </li>
                 <li>
-                    <img alt="github_logo" src="photos/skills/github.png"> Git/GitHub
+                    <img itemprop="github" alt="github_logo" src="photos/skills/github.png"> Git/GitHub
                 </li>
             </ul>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer itemscope itemtype="https://schema.org/Contact">
         <h2>Contact me<h2>
 
         <form method="POST">
-            <div class="input-contact">
+            <article itemprop="name" class="input-contact">
                 <input class="input--style" required type="text" placeholder="Name" name="name">
-            </div>
-            <div class="input-contact">
+            </article>
+
+            <article itemprop="email" class="input-contact">
                 <input class="input--style" required type="email" placeholder="Email" name="email">
-            </div>
-            <div class="input-contact">
+            </article>
+
+            <article itemprop="telephone" class="input-contact">
                 <input class="input--style" type="text" placeholder="Phone" name="phone">
-            </div>
-            <div class="btn-form">
+            </article>
+
+            <article itemprop="contact" class="btn-form">
                 <button class="btn btn--white-green" type="submit">Contact</button>
-            </div>
+            </article>
         </form>
     </footer>
 
