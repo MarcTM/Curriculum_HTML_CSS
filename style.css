@@ -245,3 +245,56 @@ footer {
     text-align: left;
     background-color: black;
 }
+
+footer h2{
+    margin-bottom: 30px;
+}
+
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input-contact {
+  position: relative;
+  margin-bottom: 33px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input--style {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+  background: transparent;
+}
+
+.input--style::-moz-placeholder {
+  opacity: 1;
+}
+
+.btn-form {
+  padding-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  height: 40px;
+  padding: 0 33px;
+  color: black;
+  font-size: 18px;
+}
+
+.btn--white-green {
+  background: white;
+}
+
+.btn--white-green:hover {
+  background: #77b846;
+}
